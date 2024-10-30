@@ -3,7 +3,7 @@ import argparse
 import os
 
 
-def parserun(inputf, name, outputf, pngfile=None, first='A', second='A', resrange=5, label=False, transparency=0.5):
+def parserun(inputf, name, outputf, pngfile=None, first='A', second='A', resrange=5, label=False, transparency=0.6):
     cmd.load(inputf)
     cmd.select("chainA", f"chain {first}") 
     cmd.select("chainB", f"chain {second}")
@@ -72,4 +72,5 @@ if __name__ == "__main__":
         pngfile = os.path.join(args.output, f'{name}.png')
     resrange = int(args.range)
     parserun(inputf=inputf, name=name, outputf=outputf, pngfile=False, first=first, second=second, resrange=resrange, label=label)
+    print(f'This pse file is: {outputf}')
 
