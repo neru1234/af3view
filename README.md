@@ -1,8 +1,10 @@
 # Summary
 This is used for two chain protein
 # Setup
+```
 conda install -c conda-forge -c schrodinger pymol-bundle
-# Parametr
+```
+# Parameter
 ```
 usage: parseaf3.py [-h] [--input <file path>] [--first <first chain>] [--second <second chain>] [--label 1|0]
                    [--output <file path>] [--range <rang>]
@@ -22,6 +24,7 @@ options:
 ```
 
 # How to use
+```
 python .\parseaf3.py --input C:\Users\aa\Downloads\fold_kcnj2_tmem63a\fold_kcnj2_tmem63a_model_2.cif
 replace the .cif with yours
- 
+```
