@@ -26,5 +26,6 @@ options:
 # How to use
 ```
 python .\parseaf3.py --input C:\Users\aa\Downloads\fold_kcnj2_tmem63a\fold_kcnj2_tmem63a_model_2.cif
-replace the .cif with yours
 ```
+Please replace the .cif with yours
+
