@@ -3,7 +3,7 @@ import argparse
 import os
 
 
-def parserun(inputf, name, outputf, pngfile=None, first='A', second='A', resrange=5, label=False, transparency=0.6):
+def parserun(inputf, name, outputf, pngfile=None, first='A', second='B', resrange=5, label=False, transparency=0.6):
     cmd.load(inputf)
     cmd.select("chainA", f"chain {first}") 
     cmd.select("chainB", f"chain {second}")
